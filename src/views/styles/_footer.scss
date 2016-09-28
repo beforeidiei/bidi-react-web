@@ -1,0 +1,41 @@
+//=========================================================
+//  SignIn
+//---------------------------------------------------------
+
+footer {
+  padding: 10px 0;
+  height: 60px;
+  line-height: 40px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer__copyright {
+  float: left;
+  font-size: rem(14px);
+  font-weight: 400;
+  text-rendering: auto;
+  transform: translate(0,0);
+}
+
+.footer__links {
+  float: right;
+  font-size: rem(14px);
+  font-weight: 400;
+  text-rendering: auto;
+  transform: translate(0,0);
+  position: relative;
+  overflow: hidden;
+}
+.footer__links li{
+    display: inline;
+}
+.footer__links li + li::before {
+    content: " / ";
+    padding: 0 5px;
+}
