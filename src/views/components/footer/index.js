@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="g-row">
         <div className="g-col">
           <div className="footer__copyright">
-            <p>&copy;2016 BIDI / Made in Brooklyn</p>
+            <p>&copy;2016 BIDI / Made by <a href="http://erictherobot.com">Eric David Smith</a></p>
           </div>
           <div className="footer__links">
             <ul>
