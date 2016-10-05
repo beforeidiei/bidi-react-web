@@ -142,10 +142,10 @@ class TaskItem extends Component {
             </svg>
           </button>
           <TwitterShareButton
-            url={shareUrl}
             title={task.title}
             via={via}
             hashtags={hashtags}
+            url={shareUrl}
             className="task-item__share-button">
             <TwitterIcon
               size={36}
