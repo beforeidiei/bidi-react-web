@@ -3,8 +3,13 @@
 //---------------------------------------------------------
 
 .about {
-  margin-top: 90px;
+  margin-top: 30px;
   max-width: 800px;
+
+  @include media-query(540) {
+    margin-top: 90px;
+  }
+
 }
 
 .about p {
