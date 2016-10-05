@@ -9,7 +9,7 @@ const {
 
 const TwitterIcon = generateShareIcon('twitter');
 const shareUrl = 'http://beforeidiei.com';
-const via = 'beforeidiei';
+const via = 'erictherobot';
 const hashtags = ['BeforeIdie', 'bucketlist', 'Goals'];
 const iconBgStyle = { fill: 'indigo' };
 const logoFillColor = '#1DADEA';
