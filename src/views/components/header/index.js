@@ -11,7 +11,7 @@ const Header = ({authenticated, signOut, signInWithTwitter}) => {
           <h1 className="header__title"><a href="/">Before I Die I</a></h1>
 
           <ul className="header__actions">
-            {authenticated ? <li><a href="/" className="btn">Dashboard</a></li> : null} {authenticated ? <li><button className="btn" onClick={signOut}>Sign Out</button></li> : <li><button className="btn" onClick={signInWithTwitter} type="button">Sign In</button></li>}
+            {authenticated ? <li><a href="/" className="btn">Dashboard</a></li> : null} {authenticated ? <li><button className="btn" onClick={signOut}>Sign Out</button></li> : <li><button className="btn btn-twitter" onClick={signInWithTwitter} type="button"><i className="fa fa-twitter" aria-hidden="true"></i> Connect</button></li>}
           </ul>
         </div>
       </div>
