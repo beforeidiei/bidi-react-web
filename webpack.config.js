@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 const webpack = require('webpack');
 const WebpackMd5Hash = require('webpack-md5-hash');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 
 //=========================================================
@@ -79,7 +81,11 @@ if (ENV_DEVELOPMENT || ENV_PRODUCTION) {
       hash: false,
       inject: 'body',
       template: './src/index.html'
-    })
+    }),
+    new CopyWebpackPlugin([
+     // {output}/file.txt
+     { from: './src/robots.txt' }
+    ])
   );
 }
 
