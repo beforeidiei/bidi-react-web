@@ -142,11 +142,12 @@ class TaskItem extends Component {
             </svg>
           </button>
           <TwitterShareButton
+            aria-hidden={editing}
             title={task.title}
             via={via}
             hashtags={hashtags}
             url={shareUrl}
-            className="task-item__share-button">
+            className={classNames('task-item__share-button', {'hide': editing})}>
             <TwitterIcon
               size={36}
               iconBgStyle={iconBgStyle}
