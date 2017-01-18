@@ -2,10 +2,10 @@
   "name": "bidi",
   "version": "1.0.0",
   "description": "BIDI - A bucket list of things to do before you die.",
-  "homepage": "https://github.com/beforeidiei/react-web-app",
+  "homepage": "https://github.com/beforeidiei/bidi-react-web",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beforeidiei/react-web-app.git"
+    "url": "https://github.com/beforeidiei/bidi-react-web.git"
   },
   "author": {
     "name": "Eric David Smith",
